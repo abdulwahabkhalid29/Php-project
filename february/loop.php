@@ -11,25 +11,24 @@
 <?php
     $M= "A";
     while($M <= "F"){
-        echo "The Alphabet is: $M <br>";
+        echo "The Alphabet is:".$M." <br>";
         $M++;
         }
         echo "<h1>'DO WHILE LOOP'</h1>";
         $W= "B";
         do{
-            echo "The Alphabet is: $W <br>";
+            echo "The Alphabet is: ".$W." <br>";
             $W++;
         }  while ($W <= "B");
         echo "<h1>'FOR LOOP'</h1>";
         for ($L = "A"; $L <= "I"; $L++){
-            echo "The Alphabet is: $L <br>";
+            echo "The Alphabet is: ".$L." <br>";
         }
         echo "<h1>'FOR EACH LOOP'</h1>";
         $age = array("ABDUL WAHAB"=>"17", "M.FAHAD"=>"16",  "M.ZEESHAN"=>"11");
         foreach($age as $H => $val){
-            echo "$H = $val<br>";
+            echo $H  ."=". $val."<br>";
         }
     ?>  
-    
 </body>
 </html>
