@@ -19,9 +19,5 @@ switch ($City) {
     echo "My favorite City is  Karachi, Lahore,  Quetta!";
 }
 ?>
-<<<<<<< HEAD
-
-=======
->>>>>>> 879e293ace5807f0a97ac8ab9a9057ec675e7732
 </body>
 </html>
