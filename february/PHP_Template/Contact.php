@@ -3,10 +3,13 @@
     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
 <div class="container-fluid" style="background-color: #000; margin-top: 1px;">
       <div class="container ">
+      <?php
+             echo   include "header.php";
+            ?>
         <div class="row">
           <div class="col-md-9">
             <h1 class="pt-5 text-light"><b>MAKE A RESERVATION</b></h1>
-            <p class="text-light mt-4">Our clients are important to us, so we continually train our therapists to ensure that all treatments are of the highest standard and that each client receives the best care’</p>          
+            <p class="text-light mt-4">Our clients are important to us, so we continually train our therapists to ensure that all treatments are of the highest standard and that each client receives the best care’</p>
           </div>
         </div>
         <div class="row mt-5">
