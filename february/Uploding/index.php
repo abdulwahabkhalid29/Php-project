@@ -15,16 +15,16 @@
             <h1 class="text-center text-success pb-4 display-5"><b><strong> Enter Form</strong></b></h1>
             <div class="row">
                 <div class="col-md-6 mt-4">
-            <input type="text" class="form-control" placeholder="Enter Your Name">
+            <input type="text" class="form-control" placeholder="Enter Your Name" required>
              </div>
             <div class="col-md-6 mt-4">
-            <input type="text" class="form-control" placeholder="Enter your Last Name">
+            <input type="text" class="form-control" placeholder="Enter your Last Name" required>
             </div>    
                 <div class="col-md-6 mt-4">
-            <input type="password" class="form-control" placeholder="Enter Your password">
+            <input type="password" class="form-control" placeholder="Enter Your password" required>
              </div>
             <div class="col-md-6 mt-4">
-            <input type="text" class="form-control" placeholder="Enter your phone number">
+            <input type="text" class="form-control" placeholder="Enter your phone number" required>
             </div>    
             </div>
             <div class="pt-3">

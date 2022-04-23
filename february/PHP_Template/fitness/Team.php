@@ -6,13 +6,11 @@
             background-image: url(assets/img/Capture10.PNG);
             height: 50%;
             background-size: 100%;
-
+            
         }
     </style>
     <div class="container">
-    <?php
-             echo   include "header.php";
-            ?>
+
       <div class="row">
       <div class="col-md-4">
       <img src="assets/img/Capture4.PNG" class="mt-5" >
